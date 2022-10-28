@@ -6,7 +6,7 @@ def main(a):
     Returns:
         True or False
     """
-    if len(a)%10 == 0:
+    if len(a)%2 == 0:
         return True
     else: 
         return False
