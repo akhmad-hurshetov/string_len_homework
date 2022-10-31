@@ -6,5 +6,6 @@ def main(s):
     Returns:
         string
     """
-    
-    return
+    if len(s)>0:
+        answer = (len(s)*('*'))
+    return answer
