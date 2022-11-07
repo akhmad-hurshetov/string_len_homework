@@ -17,3 +17,4 @@ def main(s1,s2,s3):
     else:
         answer="[]"
     return answer
+print(main('hello','world','noneed'))
